@@ -7,7 +7,7 @@ const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
  * Tạo nội dung cho một phần đơn lẻ của báo cáo với độ chi tiết cực cao
  */
 export const generateSectionContent = async (sectionName: string, context: string) => {
-  const model = 'gemini-3-pro-preview';
+  const model = 'gemini-2.5-flash';
   
   const prompt = `
     Bạn là một chuyên gia giáo dục bậc cao tại Việt Nam, nổi tiếng với các bản Sáng kiến kinh nghiệm (SKKN) đạt giải đặc biệt.
